@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #34495e;
+            color: #fff;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 20px;
+        }
+        .video-container, .links-container {
+            flex: 1;
+            margin: 10px;
+        }
+        .video-container {
+            margin-right: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .video-container iframe {
+            width: 500px;
+            height: 750px;
+            border: none;
+        }
+        .links-container {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .links-container h2 {
+            margin-top: 0;
+            color: #34495e;
+        }
+        .links-container a {
+            display: block;
+            margin: 10px 0;
+            color: #3498db;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .links-container a:hover {
+            text-decoration: underline;
+        }
+        .links-container i {
+            margin-right: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Бригадна штаб-квартірка.</h1>
+        <p>Все входящие бесплатно, все выходящие довольны.</p>
+    </div>
+    <div class="container">
+        <div class="video-container">
+             <img src="icons/fish-spinning.gif" alt="Fish spinning">
+        </div>
+        <div class="links-container">
+            <h2>Лінки на всяке важливе</h2>
+            <div style="display: flex; flex-direction: row;">
+                <div style="display: flex; flex-direction: column; flex-grow: 1">
+                    <a href="https://www.google.com"><i class="fab fa-google"></i>Пошукач</a>
+                    <a href="https://www.youtube.com"><i class="fab fa-youtube"></i>Твоя Труба</a>
+                </div>
+                <div style="display: flex; flex-direction: column">
+                    <a href="https://asuracomic.net"><i class="fas fa-book"></i>Для Нікіти</a>
+                    <a href="https://www.icy-veins.com/cataclysm-classic/"><i class="fas fa-shield-alt"></i>Для Віталіка</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
