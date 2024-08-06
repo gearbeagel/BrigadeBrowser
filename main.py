@@ -81,7 +81,7 @@ class MainWindow(QMainWindow):
         home_btn.triggered.connect(self.navigate_home)
         self.navbar.addAction(home_btn)
 
-        new_tab_btn = QAction(QIcon('icons/plus.svg'), 'New Tab', self)
+        new_tab_btn = QAction(QIcon('icons/plus-circle.svg'), 'New Tab', self)
         new_tab_btn.triggered.connect(
             lambda: self.add_new_tab(QUrl.fromLocalFile(QDir.current().filePath('homepage.html')), "Homepage"))
         self.navbar.addAction(new_tab_btn)
