@@ -15,7 +15,7 @@ Brigade Browser is a custom web browser built using PyQt5 and Qt WebEngine. It f
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/brigade-browser.git
+    git clone https://github.com/gearbeagel/BrigadeBrowser.git
     cd brigade-browser
     ```
 
